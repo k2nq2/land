@@ -1,0 +1,82 @@
+.c3 {
+    background-image: url(../../images/bg-3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 73rem;
+    margin-top: 10rem;
+}
+
+.c3 .author-name {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 6.5rem;
+    line-height: 108%;
+    text-transform: uppercase;
+    text-align: center;
+    color: #ff5f05;
+    margin-top: 40.3rem;
+}
+
+.c3-first-text {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 129%;
+    text-align: center;
+    color: #fff;
+}
+
+.c3-second-text {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 143%;
+    text-align: center;
+    color: #fff;
+    margin-top: 1.9rem;
+}
+.c3 img{
+    left: 50%;
+    transform: translate(-50%);
+    width: 1.8rem;
+    position: relative;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+}
+.c3 .circle{
+    border-radius: 100%;
+    background: #fff;
+    width: 6rem;
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.c3 .num{
+    font-family: var(--third-family);
+    font-weight: 700;
+    font-size: 3.5rem;
+    line-height: 129%;
+    text-transform: uppercase;
+    text-align: center;
+    color: #62a8de;
+}
+.c3 li{
+    display: flex;
+    gap: 1.6rem;
+    align-items: center;
+}
+.c3 li p{
+    font-family: var(--font-family);
+font-weight: 600;
+font-size: 1.4rem;
+line-height: 129%;
+text-transform: uppercase;
+color: #fff;
+}
+.c3 ul{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 5rem;
+}
